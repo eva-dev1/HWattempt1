@@ -1,18 +1,59 @@
 
-<button><a href="https://www.youtube.com/watch?v=c73Q8oQmwzo" target="blank">hello</a></button>
+<button name="button1"><a href="https://www.youtube.com/watch?v=c73Q8oQmwzo">try</a></button>
+<button name="button2"><a href="https://www.youtube.com/watch?v=KCzwyFHSMdY">and</a></button>
+<button name="button3"><a href="https://www.youtube.com/watch?v=z6WMbV5Op58">click</a></button>
+<button name="button4"><a href="https://www.youtube.com/watch?v=dAxJ-eN17Ks">some</a></button>
+<button name="button5"><a href="">things</a></button>
 
-<img src="https://static-00.iconduck.com/assets.00/white-smiling-face-emoji-1024x1024-fl7p7c7v.png" alt="a smiley face" usemap="#smileymap">
+<img id="smiley" src="https://static-00.iconduck.com/assets.00/white-smiling-face-emoji-1024x1024-fl7p7c7v.png" alt="a smiley face" usemap="#smileymap">
+
+<img id="heart1" src="https://images.emojiterra.com/google/noto-emoji/unicode-15.1/color/svg/2764.svg" alt="red heart" usemap="#heartmap">
+
+<img id="heart2" src="https://images.emojiterra.com/google/noto-emoji/unicode-15.1/color/svg/2764.svg" alt="red heart" usemap="#heartmap2">
+
+<map name="heartmap"> 
+  <area shape="circle" coords="50,50,30" href="" alt="">
+</map>
+
+<map name="heartmap2"> 
+  <area shape="circle" coords="50,50,30" href="" alt="">
+</map>
 
 <map name="smileymap">
   <area shape="circle" coords="120,145,34" href="https://youtube.com/watch?v=dQw4w9WgXcQ" alt="music video">
-  <area shape="circle" coords="275,145,34" href="https://www.youtube.com/watch?v=dAxJ-eN17Ks" alt="krissed">
+  <area shape="circle" coords="271,145,34" href="https://youtube.com/watch?v=dQw4w9WgXcQ" alt="music video">
 </map>
 
 <style>
-  img {
+  #smiley {
   display: block;
-  margin: 0 auto;
+  margin-left: 150px;
   width: 390px;
   height: 390px;
+  float: left;
+}
+  #heart1 {
+    margin-left: 0px;
+    width: 100;
+  }
+  
+  #heart2 {
+    margin-right: 100px;
+    margin-left: 40px;
+    width: 100;
+  }
+  
+  button {
+    width: 70px;
+    height: 40px;
+    font-size: 19px;
+    color: white;
+    background-color: pink;
+    margin: 33px;
+    text-decoration: none;
+  }
+a {
+  text-decoration: none;
+  color: black;
 }
 </style>
